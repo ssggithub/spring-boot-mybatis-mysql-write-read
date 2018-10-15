@@ -3,7 +3,7 @@
     <!-- <include resource="org/springframework/boot/logging/logback/base.xml" /> -->
 
 <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
-    <!-- encoders are assigned the type11
+    <!-- encoders are assigned the type  ssg
          ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
     <encoder>
       <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
